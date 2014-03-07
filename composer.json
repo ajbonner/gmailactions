@@ -1,0 +1,22 @@
+{
+    "name": "ajbonner/gmailactions",
+    "type": "magento-module",
+    "description":"Increase user-engagement in your Magento stores transactional emails",
+    "keywords": ["google", "gmail", "meanbee"],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "magento-root-dir": "./"
+    },
+    "minimum-stability": "dev"
+}
